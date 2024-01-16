@@ -1,0 +1,21 @@
+{
+	"screen_width" : 900,
+	"screen_height" : 480,
+	"random_seed" : 420,
+	"gravity_acc" : 0.6,
+	"birb_pos_x" : 30,
+	"birb_pos_y" : 200,
+	"birb_image_path" : "./images/birb.bmp",
+	"layers" : [3, 1],
+	"mutation_rate" : 0.1,
+	"population_size" : 10000,
+	"elite_group_share" : 0.1,
+	"pipe_obstacle_gap_width" : 50,
+	"pipe_obstacle_gap_height" :70,
+	"pipe_obstacle_distance" : 400,
+	"target_fitness" : 10000,
+
+	"node_radius" : 8,
+	"node_spacing_x" : 200,
+	"node_spacing_y" : 20
+}

@@ -1,0 +1,29 @@
+<!-- - NN input should be player vel y, pos y, pipe obstacle y (top and bottom) -->
+<!-- - refresh nearest pipe surpasses the player -->
+- dump best player NN and fitness for each generation
+- check args for folder with pretrained NNs
+- check args for headless
+<!-- - pipe obstacle generation should be proportional to screen width -->
+<!-- - chech how to parallelize matmul operations -->
+<!-- - draw simulation info ingame -->
+	<!-- -curr gen number -->
+	<!-- -curr fitness / target fitness -->
+	<!-- -best fitness -->
+	<!-- -total population -->
+	<!-- -mutation_rate -->
+	<!-- -elite_group_share -->
+	<!-- -random_seed -->
+- define a better exploration vs exploitation strategy
+	(check newton method?)
+- find a way normalize the inputs meaningfully
+<!-- - fix first gen pipe undead ??? AAAAA -->
+- reduce the number of inputs at the minimum necessary
+<!-- - check for leaks -->
+- color each birb to recognize their similarity
+- make the game aestetically pleasing
+<!-- - remove train plan stuff -->
+- visualize NN
+	<!-- - given a NN of the first player alive draw his -->
+		<!-- nn and weights -->
+	- highlight the chosen player
+	- green/red connections for weights white nodes for activation > .5
