@@ -54,7 +54,7 @@ The simulation requires a configuration file to set parameters such as populatio
 
 ```json
 {
-    "screen_width" : 900,
+	"screen_width" : 900,
 	"screen_height" : 480,
 	"random_seed" : 42,
 	"gravity_acc" : 0.6,
