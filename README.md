@@ -36,11 +36,11 @@ Make sure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/DarioCotza/ArtificialBirbs.git
+   git clone https://github.com/DarioCotza/flappy_birbs.git
    ```
 2. Build the project:
     ```bash
-    cd ArtificialBirbs
+    cd flappy_birbs
     make
     ```
 ## Usage
